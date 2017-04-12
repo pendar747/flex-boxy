@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    border: solid 1px;
+}
+
+.item {
+    flex-direction: row;
+    background-color: gray;
+    margin: 3px;
+    flex-grow: 1;
+    transition: 0.2s;
+    background-position: center;
+}
+
+#item1 {
+    background-image: url('./pic1.jpg');
+}
+
+#item2 {
+    background-image: url('./pic2.jpg');
+}
+#item3 {
+    background-image: url('./pic3.jpg');
+}
+#item4 {
+    background-image: url('./pic4.jpg');
+}
+
+#item5 {
+    background-image: url('./pic5.jpg');
+}
+
+.centerItem {
+    flex-grow: 4;
+}
